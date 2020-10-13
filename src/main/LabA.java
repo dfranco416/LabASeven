@@ -1,6 +1,6 @@
 package main;
 
-public class MathUtil {
+public class LabA {
 	
 	private static int three = 3; 
 	
@@ -16,8 +16,8 @@ public class MathUtil {
 		}
 	}
 	public static void main(String[] args) {
-		MathUtil util = new MathUtil();
-		MathUtil.Inner In = util.new Inner(3);
+		LabA util = new LabA();
+		LabA.Inner In = util.new Inner(3);
 
 	System.out.println(In.inside);
 	}
